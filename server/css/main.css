@@ -1,0 +1,115 @@
+html, body {
+    height: 100%;
+    font-family: Arial;
+    background: lightgray;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.login, div.game {
+    background: #eaeaea;
+    text-align: center;
+    border: 1px solid darkgray;
+    padding: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+div.login input {
+    width: 95%;
+    display: block;
+    padding: 4px;
+}
+
+div.login button {
+    margin-top: 15px;
+    padding: 4px;
+    width: 100%;
+}
+
+span.error, span.info {
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    background: red;
+    padding: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+}
+
+span.error {
+    margin-top: 15px;
+}
+
+span.info {
+    background-color: blue;
+}
+
+div.cell {
+    width: 48px;
+    height: 48px;
+    background: darkgray;
+}
+
+div.coin {
+    background: white;
+    border-radius: 100%;
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+}
+
+.you {
+    background: green !important;
+}
+
+.youS {
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.opp {
+    background: red !important;
+}
+
+.oppS {
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+
+div.column {
+    display: inline-block;
+}
+
+div.column:hover {
+    border-top: 2px solid blue;
+}
+
+div.vs {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.linkBtn {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+    border-bottom: 1px dotted black;
+}

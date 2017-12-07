@@ -1,0 +1,18 @@
+
+= Info needed to be presented =
+* Building types and costs
+* Current income generation from fields
+* Cursor colour change when you can or can't build
+* Obvious display of current credits
+
+
+= Other features =
+* Named games with shareable links
+* Game lobby
+* Different maps
+* resource multiplier choice
+
+
+= Map Features =
+* Obstacles
+* Different amount of player slots

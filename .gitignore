@@ -1,0 +1,5 @@
+_build
+deps
+priv/static/js/app.js*
+node_modules
+server/priv/static/js/
